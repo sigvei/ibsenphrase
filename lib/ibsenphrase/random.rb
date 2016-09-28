@@ -6,7 +6,7 @@ module Ibsenphrase
   # generator code in Ruby.
   class Random
     def self.prng
-      @@rng ||= Random.new
+      @@rng ||= ::Random.new
     end
   end
 end
